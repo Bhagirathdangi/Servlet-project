@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title></title>
+<style>
+.container{
+   background-color:cyan;
+  text-align:center;
+  width:50;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<h1 style="color:red">User Registration Form</h1>
+
+<form action="regi" method="post">
+
+<table border="0">
+<tr>
+<td><b>Enter Your Name:</b></td>
+<td><input type="text" name="uname" placeholder="Enter here"/></td>
+</tr>
+
+<tr>
+<td><b>Enter Your Email:</b></td>
+<td><input type="email" name="uemail" placeholder="Enter here"></td>
+</tr>
+
+<tr>
+<td><b>Enter Your Password:</b></td>
+<td><input type="password" name="upass" placeholder="Enter here"></td>
+</tr>
+
+<tr>
+<td><b>Enter Your PhoneNo:</b></td>
+<td><input type="text" name="phoneNo" placeholder="Enter here"></td>
+</tr>
+ 
+ <tr>
+ <td><b>Select your Gender:</b></td>
+ <td>
+ <input type="radio" name="gender" value="male">Male &nbsp;&nbsp;&nbsp;
+ <input type="radio" name="gender" value="female">Female
+ </td>
+ </tr>
+ 
+ <tr>
+ <td><b>Select your course:</b></td>
+ <td>
+ <select name="course">
+ <option value="java">java</option>
+ <option value=".Net">.Net</option>
+ <option value="php">Php</option>
+ <option value="Angular">Angular</option>
+ <option value="Reactjs">ReactJs</option>
+ </select>
+ </td>
+ </tr>
+
+<tr>
+<td style="text-align:right"><input type="checkbox" value="checked" name="condition"></td>
+<td>Agree term and condition</td>
+</tr>
+
+<tr>
+<td> 
+</td>
+
+<td>
+<button type="submit" style='color:blue'>Register</button>&nbsp; &nbsp;
+<button type="reset" style='color:red'>Reset</button>
+</td>
+</tr>
+</table>
+
+</form>
+</div>
+</body>
+</html>
